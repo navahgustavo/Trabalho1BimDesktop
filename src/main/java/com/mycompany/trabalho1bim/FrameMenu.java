@@ -132,7 +132,7 @@ public class FrameMenu extends javax.swing.JFrame {
     }//GEN-LAST:event_btCadastroServicosActionPerformed
 
     private void btNovaOrdemActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btNovaOrdemActionPerformed
-        // TODO add your handling code here:
+        new FrameNovaOrdemServico().setVisible(true);
     }//GEN-LAST:event_btNovaOrdemActionPerformed
 
     // Variables declaration - do not modify//GEN-BEGIN:variables

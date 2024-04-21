@@ -101,7 +101,7 @@ public class FrameCadastroServico extends javax.swing.JFrame {
         servico.setDescricaoServico(tfDescricao.getText());
         servico.setValorServico(new BigDecimal(tfValor.getText()));
 
-        JOptionPane.showMessageDialog(this, "Peça Cadastrado com Sucesso!");
+        JOptionPane.showMessageDialog(this, "Servico Cadastrado com Sucesso!");
         tfDescricao.setText("");
         tfValor.setText("");
         tfDescricao.requestFocus();

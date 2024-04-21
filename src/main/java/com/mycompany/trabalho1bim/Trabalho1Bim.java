@@ -6,7 +6,6 @@ package com.mycompany.trabalho1bim;
 public class Trabalho1Bim {
 
     public static void main(String[] args) {
-        new FrameMenu().setVisible(true);
-        
+        new FrameLogin().setVisible(true);   
     }
 }
